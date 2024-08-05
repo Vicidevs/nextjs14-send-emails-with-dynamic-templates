@@ -6,7 +6,7 @@ export default function Home() {
     "use server";
     await sendMail({
       to: "sakuradev23@gmail.com",
-      name: "Vahid",
+      name: "Henry",
       subject: "Test Mail",
       body: compileWelcomeTemplate("Vahid", "youtube.com/@sakuradev"),
     });
